@@ -1,3 +1,18 @@
 #primera_foto {
-	width: 100%
+	width: 100%;
+}
+
+#happy {
+	width: 100%;
+}
+
+
+.two {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+
+.three {
+	width: 100%;
 }

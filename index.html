@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
 			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -27,22 +27,29 @@
 
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
-			<div class="item active">
+			<div class="item one active">
+				<nav style="position: absolute;" class="navbar navbar-default">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<a class="navbar-brand" href="#" style="height: 70px; opacity: 1">
+								<img alt="Brand" src="images/logo.png">
+							</a>
+						</div>
+					</div>
+				</nav>
+				<h1 class="carousel-caption" style="color: white;margin-bottom: 55%">Desafío latam</h1>
 				<img id="primera_foto" src="images/bg.jpeg" alt="...">
 				<div class="carousel-caption">
-					<nav class="navbar navbar-default">
-						<div class="container-fluid">
-							<div class="navbar-header">
-								<a class="navbar-brand" href="#">
-									<img alt="Brand" src="...">
-								</a>
-							</div>
-						</div>
-					</nav>
 				</div>
 			</div>
-			<div class="item">
-				<img src="..." alt="...">
+			<div class="item two">
+				<img id="happy" src="images/viewing-gallery-for-happy-people.png" alt="...">
+				<div class="carousel-caption">
+					...
+				</div>
+			</div>
+			<div class="item three">
+				<img id="happy" src="https://fthmb.tqn.com/hZRLzZDTWzplZwpQP2XZ3srgXUE=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/CK_SheerMist-56a192415f9b58b7d0c0bdc2.png" alt="...">
 				<div class="carousel-caption">
 					...
 				</div>
